@@ -6,6 +6,8 @@ collection: portfolio
 
 <i> Reference: Algorithmic Trading by Ernest P. Chan</i>
 
+The following is meant to provide a Python version of the Matlab implementation for Long-Short Mean-Reversion of ETF pairs in <i>Algorithm Trading</i>. In addition, I provide a supplementary section exploring the effects of hyperparameter tuning for the Kalman Filter process.
+
 ```python
 import numpy as np
 import pandas as pd
@@ -14,12 +16,8 @@ import warnings
 warnings.filterwarnings('ignore')
 ```
 
-One noteworthy benefit of using the Kalman filter
-to find $β$ is that not only do we obtain a dynamic hedge ratio between the two
-assets, we also simultaneously obtain what we used to call “the moving average”
-of the spread. This is because, as we mentioned, $β$ includes both the slope and
-the intercept between $y$ and $x$. The best current estimate of the intercept is used
-in place of the moving average of the spread. As a by-product, it also generates an estimate of the standard deviation of the forecast error of the observable variable, which we can use in place of the moving standard deviation of a Bollinger band.
+
+> One noteworthy benefit of using the Kalman filter to find $β$ is that not only do we obtain a dynamic hedge ratio between the two assets, we also simultaneously obtain what we used to call “the moving average” of the spread. This is because, as we mentioned, $β$ includes both the slope and the intercept between $y$ and $x$. The best current estimate of the intercept is used in place of the moving average of the spread. As a by-product, it also generates an estimate of the standard deviation of the forecast error of the observable variable, which we can use in place of the moving standard deviation of a Bollinger band.
 
 ### Reading Data
 
@@ -57,22 +55,13 @@ x = np.append(np.expand_dims(x, axis=1), np.expand_dims(np.ones(len(x)), axis=1)
 
 ### Modelling
 
-What about $V_w$ and $V_e$? There is a method to estimate these variances from data called autocovariance least squares developed by Rajamani and Rawlings (2007, 2009).
+> What about $V_w$ and $V_e$? There is a method to estimate these variances from data called autocovariance least squares developed by Rajamani and Rawlings (2007, 2009).
 
-But for simplicity,
-we will follow Montana and assume $ω =
-(δ/1−δ) * I$ where $δ$ is a parameter
-between 0 and 1, and $I$ is a 2 × 2 identity matrix.
+> But for simplicity, we will follow Montana and assume $ω = (δ/1−δ) * I$ where $δ$ is a parameter between 0 and 1, and $I$ is a 2 × 2 identity matrix.
 
-If $δ = 0$, this means $β(t) =
-β(t − 1)$, which reduces the Kalman filter to ordinary least square regression
-with a fi xed offset and slope. If $δ = 1$, this means the estimated $β$ will fluctuate
-wildly based on the latest observation. The optimal $δ$, just like the optimal
-lookback in a moving linear regression, can be obtained using training data.
-With the benefi t of hindsight, we pick $δ = 0.0001$. With the same hindsight,
-we also pick $V_e = 0.001$.
+> If $δ = 0$, this means $β(t) = β(t − 1)$, which reduces the Kalman filter to ordinary least square regression with a fi xed offset and slope. If $δ = 1$, this means the estimated $β$ will fluctuate wildly based on the latest observation. The optimal $δ$, just like the optimal lookback in a moving linear regression, can be obtained using training data. With the benefi t of hindsight, we pick $δ = 0.0001$. With the same hindsight, we also pick $V_e = 0.001$.
 
-#### Initialization
+### Initialization
 
 
 ```python
@@ -94,7 +83,7 @@ Ve = 0.001
 beta[0] = 0.0
 ```
 
-#### Iteration
+### Iteration
 
 
 ```python
@@ -128,7 +117,7 @@ for t in range(len(y)):
     
 ```
 
-#### Visualizations
+### Visualizations
 
 
 ```python
@@ -204,13 +193,13 @@ numUnitsShort[shortsExit] = 0
 numUnits = numUnitsLong + numUnitsShort
 ```
 
-#### Shares Allocation:
+### Shares Allocation:
 ```
 np.concatenate((-np.expand_dims(beta[:, 0], axis=1), 
                 np.expand_dims(np.ones(len(beta)), axis=1))
 ```
 
-#### Dollar Capital Allocation:
+### Dollar Capital Allocation:
 ```
 np.concatenate((-np.expand_dims(beta[:, 0], axis=1), 
                 np.expand_dims(np.ones(len(beta)), axis=1))
@@ -221,7 +210,7 @@ np.concatenate((-np.expand_dims(beta[:, 0], axis=1),
                 
 ```
 
-#### Dollar Capital in each ETF:
+### Dollar Capital in each ETF:
 ```
 np.repeat(numUnits[:, np.newaxis], y2.shape[1], axis=1)
 
@@ -244,7 +233,7 @@ positions = np.multiply(np.multiply(np.repeat(numUnits[:, np.newaxis], y2.shape[
                         y2)
 ```
 
-#### Daily P&L of Strategy
+### Daily P&L of Strategy
 
 
 ```python
@@ -281,4 +270,12 @@ print(f"Sharpe = {round(np.sqrt(252) * np.mean(ret) / np.std(ret),3)}")
 
     APR = 0.262
     Sharpe = 2.362
+
+### Supplementary: Hyperparameter Tuning
+
+To further understand the hyperparameter ```delta```, let us see what happens to the fitted slope and intercept when we change its value.
+
+![png](/images/vary_delta_slope.png)
+![png](/images/vary_delta_intercept.png)
+
 
