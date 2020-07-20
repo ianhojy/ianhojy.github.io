@@ -34,7 +34,7 @@ x = cl[10].to_numpy()
 y = cl[11].to_numpy()
 ```
 
-Plotting Cointegrated series
+### Plotting Cointegrated series
 
 
 ```python
@@ -48,8 +48,8 @@ plt.show()
 ![png](/images/output_7_0.png)
 
 
-Allowing for dynamic offset
-
+### Allowing for dynamic offset
+Constant term for the 'hidden' state
 
 ```python
 x = np.append(np.expand_dims(x, axis=1), np.expand_dims(np.ones(len(x)), axis=1), axis=1)
@@ -57,7 +57,7 @@ x = np.append(np.expand_dims(x, axis=1), np.expand_dims(np.ones(len(x)), axis=1)
 
 ### Modelling
 
-Whatabout Vw and Ve? There is a method to estimate these variances from data called autocovariance least squares developed by Rajamani and Rawlings(2007, 2009).
+What about $V_w$ and $V_e$? There is a method to estimate these variances from data called autocovariance least squares developed by Rajamani and Rawlings (2007, 2009).
 
 But for simplicity,
 we will follow Montana and assume $ω =
@@ -172,7 +172,7 @@ plt.show()
 y2 = np.concatenate((np.expand_dims(x[:, 0], 1), np.expand_dims(y, 1)), axis=1)
 ```
 
-The measurement prediction error e(t) (previously called the forecast error for y(t) given observation at t − 1) is none other than the deviation of the spread EWC-EWA from its predicted mean value, and we will buy this spread when the deviation is very negative, and vice versa if it is very positive.
+The measurement prediction error $e(t)$ (previously called the forecast error for $y(t)$ given observation at t − 1) is none other than the deviation of the spread $EWC-EWA$ from its predicted mean value, and we will buy this spread when the deviation is very negative, and vice versa if it is very positive.
 
 
 ```python
