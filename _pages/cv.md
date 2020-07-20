@@ -36,12 +36,20 @@ Teaching experience
 
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Python
+* MATLAB
+* R
+* STATA
+
+* Keras / Tensorflow
+* Numpy / Pandas 
+* Scikit-Learn
+
+* Scala
+* PySpark
+
+* Java
+* C++
 
 <!---
 Publications
