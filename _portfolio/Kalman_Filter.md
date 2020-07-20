@@ -15,10 +15,10 @@ warnings.filterwarnings('ignore')
 ```
 
 One noteworthy benefit of using the Kalman filter
-to fi nd β is that not only do we obtain a dynamic hedge ratio between the two
+to find $$β$$ is that not only do we obtain a dynamic hedge ratio between the two
 assets, we also simultaneously obtain what we used to call “the moving average”
-of the spread. This is because, as we mentioned, β includes both the slope and
-the intercept between y and x. The best current estimate of the intercept is used
+of the spread. This is because, as we mentioned, $β$ includes both the slope and
+the intercept between $y$ and $x$. The best current estimate of the intercept is used
 in place of the moving average of the spread. As a by-product, it also generates an estimate of the standard deviation of the forecast error of the observable variable, which we can use in place of the moving standard deviation of a Bollinger band.
 
 ### Reading Data
