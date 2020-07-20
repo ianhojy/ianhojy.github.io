@@ -253,7 +253,7 @@ pnl = np.sum(np.multiply(pd.DataFrame(positions).shift(1).fillna(0).to_numpy(),
              axis=1)
 ```
 
-return is P&L divided by gross market value of portfolio
+`ret` is P&L divided by gross market value of portfolio
 
 
 ```python
