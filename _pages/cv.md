@@ -16,8 +16,15 @@ Education
 
 Work experience
 ======
-March 2020 - August 2020
-: ** Data science Intern; Govtech
+* March 2020 - August 2020: Data Science Intern, GovTech, Prime Minister's Office
+* January 2020 - May 2020: Researcher, Point72
+* June 2018 - August 2018: Research Analyst, Ministry of Trade & Industry
+
+Research experience
+======
+* May 2020 - August 2020: Finance Deep Learning Researcher, Columbia University (Engineering)
+* November 2020 - August 2020: Economics Research Assistant, Columbia University (Business)
+
   
 Skills
 ======
