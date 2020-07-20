@@ -26,6 +26,7 @@ Research experience
 * November 2020 - August 2020: Economics Research Assistant, Columbia University (Business)
 
 Teaching experience
+======
 * May 2020 - August 2020: Programming in Python
 * May 2020 - August 2020: Capital Markets & Investments
 * January 2020 - April 2020: Capital Markets & Investments
