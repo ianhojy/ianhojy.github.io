@@ -18,6 +18,27 @@ Education
   * GPA 4.11 / 4.0
   * Awarded Graduate Fellowship Prize
   
+Classes
+======
+### <u>Finance</u>
+* AI Applications in Quantitative Finance
+* Big Data in Finance (PhD)
+* Advanced Corporate Finance
+* Asset Management
+* Capital Markets & Investment
+* Private Equity
+* Value Investing
+
+### <u>Data Science</u>
+* Data Analytics
+* Business Analytics
+* Analytics on the Cloud
+* Machine Learning for Financial Engineering
+* Deep Learning
+* Natural Language Programming
+* Optimization
+* Probability & Simulation
+  
 Work experience
 ======
 * March 2020 - August 2020: Data Science Intern, GovTech, Prime Minister's Office
