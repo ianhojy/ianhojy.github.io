@@ -44,7 +44,7 @@ plt.show()
 ```
 
 
-![png](output_7_0.png)
+![png](./output_7_0.png)
 
 
 Allowing for dynamic offset
