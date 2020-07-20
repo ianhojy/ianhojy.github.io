@@ -15,7 +15,7 @@ warnings.filterwarnings('ignore')
 ```
 
 One noteworthy benefit of using the Kalman filter
-to find $$β$$ is that not only do we obtain a dynamic hedge ratio between the two
+to find $\beta$ is that not only do we obtain a dynamic hedge ratio between the two
 assets, we also simultaneously obtain what we used to call “the moving average”
 of the spread. This is because, as we mentioned, $β$ includes both the slope and
 the intercept between $y$ and $x$. The best current estimate of the intercept is used
