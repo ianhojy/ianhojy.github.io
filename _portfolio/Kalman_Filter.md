@@ -15,7 +15,7 @@ warnings.filterwarnings('ignore')
 ```
 
 One noteworthy benefit of using the Kalman filter
-to find $\beta$ is that not only do we obtain a dynamic hedge ratio between the two
+to find $β$ is that not only do we obtain a dynamic hedge ratio between the two
 assets, we also simultaneously obtain what we used to call “the moving average”
 of the spread. This is because, as we mentioned, $β$ includes both the slope and
 the intercept between $y$ and $x$. The best current estimate of the intercept is used
@@ -61,16 +61,16 @@ Whatabout Vw and Ve? There is a method to estimate these variances from data cal
 
 But for simplicity,
 we will follow Montana and assume $ω =
-(δ/1−δ) * I$ where δ is a parameter
-between 0 and 1, and I is a 2 × 2 identity matrix.
+(δ/1−δ) * I$ where $δ$ is a parameter
+between 0 and 1, and $I$ is a 2 × 2 identity matrix.
 
-If δ = 0, this means β(t) =
-β(t − 1), which reduces the Kalman fi lter to ordinary least square regression
-with a fi xed offset and slope. If δ = 1, this means the estimated β will fl uctuate
-wildly based on the latest observation. The optimal δ, just like the optimal
+If $δ = 0$, this means $β(t) =
+β(t − 1)$, which reduces the Kalman filter to ordinary least square regression
+with a fi xed offset and slope. If $δ = 1$, this means the estimated $β$ will fluctuate
+wildly based on the latest observation. The optimal $δ$, just like the optimal
 lookback in a moving linear regression, can be obtained using training data.
-With the benefi t of hindsight, we pick δ = 0.0001. With the same hindsight,
-we also pick Ve = 0.001.
+With the benefi t of hindsight, we pick $δ = 0.0001$. With the same hindsight,
+we also pick $V_e = 0.001$.
 
 #### Initialization
 
