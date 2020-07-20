@@ -57,9 +57,9 @@ x = np.append(np.expand_dims(x, axis=1), np.expand_dims(np.ones(len(x)), axis=1)
 
 > What about $V_w$ and $V_e$? There is a method to estimate these variances from data called autocovariance least squares developed by Rajamani and Rawlings (2007, 2009).
 
-> But for simplicity, we will follow Montana and assume $ω = (δ/1−δ) * I$ where $δ$ is a parameter between 0 and 1, and $I$ is a 2 × 2 identity matrix.
+> But for simplicity, we will follow Montana and assume $V_ω = (δ/1−δ) * I$ where $δ$ is a parameter between 0 and 1, and $I$ is a 2 × 2 identity matrix.
 
-> If $δ = 0$, this means $β(t) = β(t − 1)$, which reduces the Kalman filter to ordinary least square regression with a fi xed offset and slope. If $δ = 1$, this means the estimated $β$ will fluctuate wildly based on the latest observation. The optimal $δ$, just like the optimal lookback in a moving linear regression, can be obtained using training data. With the benefi t of hindsight, we pick $δ = 0.0001$. With the same hindsight, we also pick $V_e = 0.001$.
+> If $δ = 0$, this means $β(t) = β(t − 1)$, which reduces the Kalman filter to ordinary least square regression with a fixed offset and slope. If $δ = 1$, this means the estimated $β$ will fluctuate wildly based on the latest observation. The optimal $δ$, just like the optimal lookback in a moving linear regression, can be obtained using training data. With the benefit of hindsight, we pick $δ = 0.0001$. With the same hindsight, we also pick $V_e = 0.001$.
 
 ### Initialization
 
@@ -273,9 +273,11 @@ print(f"Sharpe = {round(np.sqrt(252) * np.mean(ret) / np.std(ret),3)}")
 
 ### Supplementary: Hyperparameter Tuning
 
-To further understand the hyperparameter ```delta```, let us see what happens to the fitted slope and intercept when we change its value.
+To further understand the hyperparameter ```delta``` $δ$, let us see what happens to the fitted slope and intercept when we change its value.
 
 ![png](/images/vary_delta_slope.png)
 ![png](/images/vary_delta_intercept.png)
+
+When $δ$ is very small, the Kalman filter approaches normal OLS regression with a fixed intercept. When $δ$ is huge, the estimated slope is very sensitive to the latest observations.
 
 
