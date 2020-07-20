@@ -4,6 +4,7 @@ excerpt: "Short description of portfolio item number 2 <br/><img src='/images/50
 collection: portfolio
 ---
 
+<i> Reference: Algorithmic Trading by Ernest P. Chan</i>
 
 ```python
 import numpy as np
