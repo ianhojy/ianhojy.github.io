@@ -44,7 +44,7 @@ plt.show()
 ```
 
 
-![png](output_7_0.png)
+![png](/images/output_7_0.png)
 
 
 Allowing for dynamic offset
@@ -137,7 +137,7 @@ plt.show()
 ```
 
 
-![png](output_18_0.png)
+![png](/images/output_18_0.png)
 
 
 
@@ -148,7 +148,7 @@ plt.show()
 ```
 
 
-![png](output_19_0.png)
+![png](/images/output_19_0.png)
 
 
 
@@ -161,7 +161,7 @@ plt.show()
 ```
 
 
-![png](output_20_0.png)
+![png](/images/output_20_0.png)
 
 
 ### Strategy Construction
@@ -275,7 +275,7 @@ print(f"Sharpe = {round(np.sqrt(252) * np.mean(ret) / np.std(ret),3)}")
 ```
 
 
-![png](output_35_0.png)
+![png](/images/output_35_0.png)
 
 
     APR = 0.262
