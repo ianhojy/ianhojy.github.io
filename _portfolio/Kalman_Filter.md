@@ -1,5 +1,5 @@
 ---
-title: "Kalman Filter (Dynamic Regression) - Algo Trading"
+title: "Kalman Filter (Dynamic Regression) for Algo Trading"
 excerpt: "Calculating optimal hedge for long-short mean-reversion strategy<br/><img src='/images/stock-market.jpg'>"
 collection: portfolio
 ---
