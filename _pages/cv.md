@@ -17,7 +17,7 @@ Education
 Work experience
 ======
 March 2020 - August 2020
-: * Data science Intern; Govtech
+: ** Data science Intern; Govtech
   
 Skills
 ======
