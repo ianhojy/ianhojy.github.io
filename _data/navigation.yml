@@ -7,10 +7,7 @@ main:
   - title: "Portfolio"
     url: /portfolio/
     
-  - title: "Publications"
-    url: /publications/
-    
-  - title: "Blog Posts"
+  - title: "Articles"
     url: /year-archive/
     
   - title: "Guide"
