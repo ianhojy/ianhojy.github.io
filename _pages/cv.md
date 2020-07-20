@@ -12,8 +12,11 @@ redirect_from:
 Education
 ======
 * B.A. Politics, Philosophy & Economics, University of Oxford, 2019
+  * 1st Class Honours (Top 5%)
 * M.S. Business Analytics (Finance), Columbia University, 2020
-
+  * GPA 4.11 / 4.0
+  * Awarded Graduate Fellowship Prize
+  
 Work experience
 ======
 * March 2020 - August 2020: Data Science Intern, GovTech, Prime Minister's Office
