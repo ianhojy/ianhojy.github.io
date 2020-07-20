@@ -11,7 +11,7 @@ redirect_from:
 
 
 Education
----
+====
 * B.A. Politics, Philosophy & Economics, University of Oxford, 2019
   * 1st Class Honours (Top 5%)
 * M.S. Business Analytics (Finance), Columbia University, 2020
@@ -19,7 +19,7 @@ Education
   * Awarded Graduate Fellowship Prize
   
 Classes
----
+====
 ### <u>Finance</u>
 * AI Applications in Quantitative Finance
 * Big Data in Finance (PhD)
@@ -40,24 +40,24 @@ Classes
 * Probability & Simulation
   
 Work experience
----
+====
 * March 2020 - August 2020: Data Science Intern, GovTech, Prime Minister's Office
 * January 2020 - May 2020: Researcher, Point72
 * June 2018 - August 2018: Research Analyst, Ministry of Trade & Industry
 
 Research experience
----
+====
 * May 2020 - August 2020: Finance Deep Learning Researcher, Columbia University (Engineering)
 * November 2020 - August 2020: Economics Research Assistant, Columbia University (Business)
 
 Teaching experience
----
+====
 * May 2020 - August 2020: Programming in Python
 * May 2020 - August 2020: Capital Markets & Investments
 * January 2020 - April 2020: Capital Markets & Investments
 
 Skills
----
+====
 * Python
 * MATLAB
 * R
