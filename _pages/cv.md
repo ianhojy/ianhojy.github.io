@@ -40,14 +40,11 @@ Skills
 * MATLAB
 * R
 * STATA
-
 * Keras / Tensorflow
 * Numpy / Pandas 
 * Scikit-Learn
-
 * Scala
 * PySpark
-
 * Java
 * C++
 
