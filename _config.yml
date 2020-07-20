@@ -82,13 +82,13 @@ analytics:
 author:
   name             : "Ian Ho"
   avatar           : "profile-pic.jpg"
-  bio              : "Data Science\nMachine Learning\nEconomics\n   Quant Finance"
+  bio              : "Data Science\nMachine Learning\nEconomics\n         Quant Finance"
   location         : "Singapore"
   employer         :
   pubmed           : 
   googlescholar    : 
   email            : "ian.ho@columbia.edu"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     :  
   uri              :
   bitbucket        :
   codepen          :
@@ -100,7 +100,7 @@ author:
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      : 
   lastfm           :
   linkedin         : "https://linkedin.com/in/ianhojy"
   orcid            : 
