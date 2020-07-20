@@ -11,4 +11,4 @@ redirect_from:
 About me
 ------------
 
-Hello there! Welcome to my page.
+Hello World! Welcome to my page.
