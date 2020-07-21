@@ -57,6 +57,7 @@ Work experience
 * March 2020 - August 2020: Data Science Intern, GovTech, Prime Minister's Office
 * January 2020 - May 2020: Researcher, Point72
 * June 2018 - August 2018: Research Analyst, Ministry of Trade & Industry
+* June 2017 - August 2017: Consultant Intern, M-Brain Group
 
 Research experience
 ====
