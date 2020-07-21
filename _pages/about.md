@@ -8,20 +8,17 @@ redirect_from:
   - /about.html
 ---
 
-About Me
-------------
-
-Hello World! Welcome to my page.
+Hello! Welcome to my page.
 
 Interests
 ------------
 
 
 ### Data Science
-Details
+Currently working on Fairness / Bias Mitigation in ML Algorithms
 
 ### Quantitative Finance
-Details
+Currently working on Applied Deep Learning in Oil Price Prediction 
 
 ### Economics
-Details
+Currently assisting research on optimal Savings Policy Algorithms 
