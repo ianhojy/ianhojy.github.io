@@ -38,6 +38,17 @@ Classes
 * Natural Language Programming
 * Optimization
 * Probability & Simulation
+
+### <u>Economics</u>
+* MicroEconomics
+* MacroEconomics
+* Econometrics
+* Economics of Industry (Market Competition & Policy)
+
+### <u>Politics</u>
+* Comparative Government
+* International Relations
+* Politics in China
   
 Work experience
 ====
