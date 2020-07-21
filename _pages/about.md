@@ -16,7 +16,12 @@ Hello World! Welcome to my page.
 Interests
 ------------
 
-### Time-Series Analysis
-
 
 ### Data Science
+Details
+
+### Quantitative Finance
+Details
+
+### Economics
+Details
