@@ -24,12 +24,14 @@ Classes
 * AI Applications in Quantitative Finance
 * Big Data in Finance (PhD)
 * Advanced Corporate Finance
+* Equity Derivatives 
 * Asset Management
 * Capital Markets & Investment
 * Private Equity
 * Value Investing
 
 ### <u>Data Science</u>
+* Applied Machine Learning
 * Data Analytics
 * Business Analytics
 * Analytics on the Cloud
