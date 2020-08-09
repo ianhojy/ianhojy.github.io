@@ -15,10 +15,15 @@ Interests
 
 
 ### Data Science
-Currently working on Fairness / Bias Mitigation in ML Algorithms
+<u>Currently working on:</u>
+<li> Fairness / Bias Mitigation in ML Algorithms
+<li> Streamlining Bayesian Optimization and scikit-learn
 
-### Quantitative Finance
-Currently working on Applied Deep Learning in Oil Price Prediction 
+### Quantitative Finance / Econometrics
+<u>Currently working on:</u>
+<li> Applied Deep Learning in Oil Price Prediction
+<li> Cash Flow Forecasting for Private Equity Funds
+<li> Regime-change Techniques / Regime Decomposition
+<li> Emerging ESG trends
 
-### Economics
-Currently assisting research on optimal Savings Policy Algorithms 
+
