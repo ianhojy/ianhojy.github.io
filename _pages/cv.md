@@ -70,7 +70,7 @@ Teaching experience
 * May 2020 - August 2020: Capital Markets & Investments
 * January 2020 - April 2020: Capital Markets & Investments
 
-Skills
+Technical Skills
 ====
 * Python
 * MATLAB
@@ -79,10 +79,32 @@ Skills
 * Keras / Tensorflow
 * Numpy / Pandas 
 * Scikit-Learn
-* Scala
-* PySpark
+* Scala, PySpark, SparkSQL, SparkML
+* Tableau
 * Java
 * C++
+* Git
+
+Knowledge Areas
+====
+* Machine Learning / Data Science
+  * Regression, Logistic, Kernel SVM, KNN, Naive Bayes, Decision Trees, Random Frest
+  * Natural Language Processing
+  * Pipelines, Hyperparameter Optimization
+  * Bayesian Optimization
+  * Recommendation Systems (Collabroative Filtering)
+  * Clustering (DBSCAN, Guassian Mixture)
+* Econometrics / Time Series
+  * Vector Auto-Regression
+  * Cointegration
+  * ARCH / GARCH / EGARCH 
+  * Kalman Filter
+* Deep Learning
+  * RNN, LSTM, ConvLSTM
+  * CNN
+  * GAN
+  * Recommendation Sytems
+
 
 <!---
 Publications
