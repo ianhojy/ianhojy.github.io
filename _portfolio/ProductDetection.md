@@ -29,11 +29,11 @@ By implementing the CNNs in the given notebook, I have produced image groups of 
 Here are some examples below:
 
 **Category 17 (presumably ladies' shoes)**
-![](test_results/cat_17.png)
+![png](/images/cat_17.png)
 **Category 22 (presumably helmets)**
-![](test_results/cat_22.png)
+![png](/images/cat_22.png)
 **Category 24 (presumably watches)**
-![](test_results/cat_24.png)
+![png](/images/cat_24.png)
 
 ## Dependencies
 
