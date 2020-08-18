@@ -14,7 +14,7 @@ Education
 ====
 * B.A. Politics, Philosophy & Economics, University of Oxford, 2019
   * 1st Class Honours (Top 5%)
-* M.S. Business Analytics (Finance), Columbia University, 2020
+* M.S. Business Analytics (Finance Specialization), Columbia Engineering & Columbia Business School, Columbia University, 2020
   * GPA 4.11 / 4.0
   * Awarded Graduate Fellowship Prize
   
@@ -105,5 +105,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
 --->
