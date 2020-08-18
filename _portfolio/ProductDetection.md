@@ -4,8 +4,7 @@ excerpt: "Multi-Class Image Classification"
 collection: portfolio
 ---
 
-# Product Detection using CNN & Transfer Learning
------
+The github repo for this project can be found [here](https://github.com/ianhojy/Product_Detection)
 
 ## Overview
 
