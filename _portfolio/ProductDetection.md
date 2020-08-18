@@ -19,9 +19,21 @@ In the models below, you will find the following key **variations**:
 - ```Revamp```
     - This indicates that the model unfreezes all layers for retraining while retaining the pre-trained architecture
     
+    
+These experiments will allow us to understand when and how transfer learning works best. For instance, the choice to re-train all the weights, or to un-freeze very specific layers, is dependent on factors such as amount of data, compatibility of classification between pre-trained data and your own data etc.
+
 ### Results
 
-- In the final section, I present the product detection based on a test set with no labels. The results can be seen in the ```test_results``` folder, which contains aggregate images according to the model's predicted class. On a whole, the model seems to perform relatively well for a simple training purposes. As expected, classification for some classes perform significantly better than for other classes.
+By implementing the CNNs in the given notebook, I have produced image groups of test results, which provide a quick confirmation of model effectiveness.
+
+Here are some examples below:
+
+**Category 17 (presumably ladies' shoes)**
+![](test_results/cat_17.png)
+**Category 22 (presumably helmets)**
+![](test_results/cat_22.png)
+**Category 24 (presumably watches)**
+![](test_results/cat_24.png)
 
 ## Dependencies
 
