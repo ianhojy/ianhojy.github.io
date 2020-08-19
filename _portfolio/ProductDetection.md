@@ -14,7 +14,6 @@ The github repo for this project can be found [here](https://github.com/ianhojy/
 **Category 24 (presumably watches)**
 ![png](/images/cat_24.png)
 
-<!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
 
