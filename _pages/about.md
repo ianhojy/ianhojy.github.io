@@ -17,5 +17,5 @@ Interests
 <li>Business Analytics</li>
 <li>Econometrics / ML & Deep Learning Applications for Time Series</li>
 <li>Algorithmic Trading</li>
-<li>Ethics / Moral Philosophy (Remnants of my undergraduate years?)<li>
+<li>Ethics / Moral Philosophy (Remnants of my undergraduate years?)</li>
 <li>Modern Authoritarianism (More Remnants??)</li>
