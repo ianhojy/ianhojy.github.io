@@ -9,6 +9,7 @@ The github repo for this project can be found [here](https://github.com/ianhojy/
 ### Results
 
 Below are samples of categories labelled using an out-of-sample test set. 
+Looks like the model has learnt pretty well!
 
 **Category 17 (presumably ladies' shoes)**
 ![png](/images/cat_17.png)
