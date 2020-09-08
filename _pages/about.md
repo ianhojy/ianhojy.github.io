@@ -8,14 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-Hello! Welcome to my page.
+Hello! Welcome to my page. Check out my <a href="https://ianhojy.github.io/portfolio">portfolio</a>!
 
 Interests
 ------------
 <li>Machine Learning</li>
 <li>Deep Learning</li>
-<li>Business Analytics</li>
+<li>Business Analytics / Big Data Analytics</li>
 <li>Econometrics / ML & Deep Learning Applications for Time Series</li>
 <li>Algorithmic Trading</li>
-<li>Ethics / Moral Philosophy (Remnants of my undergraduate years?)</li>
-<li>Modern Authoritarianism (More Remnants??)</li>
+
