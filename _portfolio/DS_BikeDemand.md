@@ -1,5 +1,5 @@
 ---
-title: "Kaggle Competition (top 10%): Predicting Bike Sharing Demand"
+title: "Kaggle: Predicting Bike Sharing Demand"
 excerpt: "XGBoost with Bayesian Optimization"
 collection: portfolio
 ---
